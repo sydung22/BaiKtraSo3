@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lichsudh">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lichsu">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:src="@drawable/lichsu"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/lichsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_dathang"
+            android:backgroundTint="#FF5722"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_bg"
+            android:textSize="18sp"
+            android:text="Đặt Hàng"
+            android:textColor="#ffffff"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+</RelativeLayout>
